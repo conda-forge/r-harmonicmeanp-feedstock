@@ -1,11 +1,11 @@
-About r-harmonicmeanp
-=====================
+About r-harmonicmeanp-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-harmonicmeanp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=harmonicmeanp
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-harmonicmeanp-feedstock/blob/main/LICENSE.txt)
 
 Summary: The harmonic mean p-value (HMP) test combines p-values and corrects for multiple testing while controlling the strong-sense family-wise error rate. It is more powerful than common alternatives including Bonferroni and Simes procedures when combining large proportions of all the p-values, at the cost of slightly lower power when combining small proportions of all the p-values. It is more stringent than controlling the false discovery rate, and possesses theoretical robustness to positive correlations between tests and unequal weights. It is a multi-level test in the sense that a superset of one or more significant tests is certain to be significant and conversely when the superset is non-significant, the constituent tests are certain to be non-significant. It is based on MAMML (model averaging by mean maximum likelihood), a frequentist analogue to Bayesian model averaging, and is theoretically grounded in generalized central limit theorem. For detailed examples type vignette("harmonicmeanp") after installation. Version 3.0 addresses errors in versions 1.0 and 2.0 that led function p.hmp to control the familywise error rate only in the weak sense, rather than the strong sense as intended.
 
